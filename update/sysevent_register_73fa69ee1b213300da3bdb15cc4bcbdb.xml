@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <description/>
+        <event_name>x_216497_j_class_m.delete_registration</event_name>
+        <fired_by/>
+        <queue/>
+        <suffix>delete_registration</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-24 06:34:32</sys_created_on>
+        <sys_id>73fa69ee1b213300da3bdb15cc4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_216497_j_class_m.delete_registration</sys_name>
+        <sys_package display_value="J Class Management" source="x_216497_j_class_m">f1eb8d101b213300da3bdb15cc4bcb0f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="J Class Management">f1eb8d101b213300da3bdb15cc4bcb0f</sys_scope>
+        <sys_update_name>sysevent_register_73fa69ee1b213300da3bdb15cc4bcbdb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-24 06:34:32</sys_updated_on>
+        <table>x_216497_j_class_m_student_registration</table>
+    </sysevent_register>
+</record_update>

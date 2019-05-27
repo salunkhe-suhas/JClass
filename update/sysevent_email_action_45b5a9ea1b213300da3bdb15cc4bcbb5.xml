@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>false</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Student Registration" name="Student Registration">6b16edea1b213300da3bdb15cc4bcbcc</category>
+        <collection>x_216497_j_class_m_student_registration</collection>
+        <condition/>
+        <content_type>multipart/mixed</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>x_216497_j_class_m.delete_registration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from>ServiceNow Training</from>
+        <generation_type>engine</generation_type>
+        <importance>high</importance>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Hello Email Script here</p>
+<p>&nbsp;</p>
+<p>${mail_script:StudentEmailScript}</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Send Notification on Update</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users>21c945c41b213300da3bdb15cc4bcb5e,classical.suhas@gmail.com</recipient_users>
+        <reply_to/>
+        <send_self>false</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject/>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-24 06:13:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>45b5a9ea1b213300da3bdb15cc4bcbb5</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Send Notification on Update</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="J Class Management" source="x_216497_j_class_m">f1eb8d101b213300da3bdb15cc4bcb0f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="J Class Management">f1eb8d101b213300da3bdb15cc4bcb0f</sys_scope>
+        <sys_update_name>sysevent_email_action_45b5a9ea1b213300da3bdb15cc4bcbb5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-24 07:00:27</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Student Registration">000ead621b613300da3bdb15cc4bcb9f</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

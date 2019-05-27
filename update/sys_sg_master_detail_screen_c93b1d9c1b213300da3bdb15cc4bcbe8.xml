@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_detail_screen">
+    <sys_sg_master_detail_screen action="INSERT_OR_UPDATE">
+        <application_roles/>
+        <available_offline>false</available_offline>
+        <data_item display_value="All Students">291b9d1c1b213300da3bdb15cc4bcbe9</data_item>
+        <description>List of all students</description>
+        <fetch_type>not_required</fetch_type>
+        <hidden>false</hidden>
+        <icon display_value="list-alt">86a721151ba17300da3bdb15cc4bcbc1</icon>
+        <name>All Students</name>
+        <order>10</order>
+        <parent>7b989d1c1b213300da3bdb15cc4bcbe0</parent>
+        <parent_table>sys_sg_folder</parent_table>
+        <roles_override/>
+        <sys_class_name>sys_sg_master_detail_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-17 05:38:27</sys_created_on>
+        <sys_id>c93b1d9c1b213300da3bdb15cc4bcbe8</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>All Students</sys_name>
+        <sys_package display_value="J Class Management" source="x_216497_j_class_m">f1eb8d101b213300da3bdb15cc4bcb0f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="J Class Management">f1eb8d101b213300da3bdb15cc4bcb0f</sys_scope>
+        <sys_update_name>sys_sg_master_detail_screen_c93b1d9c1b213300da3bdb15cc4bcbe8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-20 09:06:47</sys_updated_on>
+    </sys_sg_master_detail_screen>
+</record_update>

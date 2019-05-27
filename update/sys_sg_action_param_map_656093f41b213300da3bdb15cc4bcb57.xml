@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Add Payment">ce7cc3341b213300da3bdb15cc4bcb0c</button>
+        <item_parameter display_value="Roll Number">44ce03b41b213300da3bdb15cc4bcbbe</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-19 03:27:39</sys_created_on>
+        <sys_id>656093f41b213300da3bdb15cc4bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>44ce03b41b213300da3bdb15cc4bcbbe</sys_name>
+        <sys_package display_value="J Class Management" source="x_216497_j_class_m">f1eb8d101b213300da3bdb15cc4bcb0f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="J Class Management">f1eb8d101b213300da3bdb15cc4bcb0f</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_656093f41b213300da3bdb15cc4bcb57</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-19 03:27:39</sys_updated_on>
+        <ui_parameter display_value="Roll Number">fd2f87b41b213300da3bdb15cc4bcb4c</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

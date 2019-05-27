@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Student Registration" max_length="40" name="x_216497_j_class_m_student_registration" type="collection">
+        <element label="9th Std %" max_length="6" name="u_9_th_std" type="string"/>
+        <element attributes="tree_picker=True" label="Address" max_length="32" name="u_address" reference="cmn_location" type="reference"/>
+        <element default="000000" label="Balance Fees" max_length="40" name="u_balance_fees" type="integer"/>
+        <element label="Complete Payment" max_length="40" name="u_complete_payment" type="boolean"/>
+        <element label="Date of Birth" max_length="40" name="u_date_of_birth" type="glide_date"/>
+        <element label="Father Name" max_length="50" name="u_father_name" type="string"/>
+        <element label="Father's Contact" max_length="10" name="u_father_s_contact" type="string"/>
+        <element label="Father's Occupation" max_length="50" name="u_father_s_occupation" type="string"/>
+        <element label="Full Name" max_length="100" name="u_full_name" read_only="true" type="string"/>
+        <element choice="1" label="Gender" max_length="40" name="u_gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Male" sequence="1" value="Male"/>
+                <element inactive_on_update="false" label="Female" sequence="2" value="Female"/>
+            </choice>
+        </element>
+        <element label="Medium" max_length="32" name="u_medium" reference="x_216497_j_class_m_medium" type="reference"/>
+        <element label="Mother Name" max_length="50" name="u_mother_name" type="string"/>
+        <element label="Mother's Contact" max_length="10" name="u_mother_s_contact" type="string"/>
+        <element label="Mother's Occupation" max_length="50" name="u_mother_s_occupation" type="string"/>
+        <element label="Own Contact" max_length="10" name="u_own_contact" type="string"/>
+        <element default="000000" label="Paid Fees" max_length="40" name="u_paid_fees" type="integer"/>
+        <element label="Photo" max_length="40" name="u_photo" type="user_image"/>
+        <element label="Postal Address" max_length="1024" name="u_postal_address" type="string"/>
+        <element display="true" label="Roll Number" max_length="12" name="u_roll_number" type="string"/>
+        <element label="School Name" max_length="500" name="u_school_name" type="string"/>
+        <element label="Select Subjects" max_length="32" name="u_select_subjects" reference="x_216497_j_class_m_subject" type="reference"/>
+        <element label="Student Name" max_length="50" name="u_student_name" type="string"/>
+        <element default="English, Maths, Science" label="Subjects" max_length="4000" name="u_subjects" reference="x_216497_j_class_m_subject" type="glide_list"/>
+        <element label="Surname" max_length="50" name="u_surname" type="string"/>
+        <element default="000000" label="Total Fees" max_length="40" name="u_total_fees" type="integer"/>
+        <index name="index">
+            <element name="u_address"/>
+        </index>
+        <index name="index2">
+            <element name="u_medium"/>
+        </index>
+        <index name="index3">
+            <element name="u_select_subjects"/>
+        </index>
+    </element>
+</database>

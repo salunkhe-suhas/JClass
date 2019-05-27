@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_activity_stream_screen">
+    <sys_sg_activity_stream_screen action="INSERT_OR_UPDATE">
+        <add_additional_comment_button>true</add_additional_comment_button>
+        <add_attachment_button>true</add_attachment_button>
+        <add_work_note_button>true</add_work_note_button>
+        <application_roles/>
+        <available_offline>false</available_offline>
+        <data_item display_value="All Payments">c489a7781b613300da3bdb15cc4bcb09</data_item>
+        <description/>
+        <fetch_type>background</fetch_type>
+        <hidden>false</hidden>
+        <icon display_value="file-alt">1b3127471b613300da3bdb15cc4bcbd1</icon>
+        <name>Activity Stream</name>
+        <order>20</order>
+        <parent>ecc9a7b81b613300da3bdb15cc4bcbf1</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <roles_override/>
+        <sys_class_name>sys_sg_activity_stream_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-19 05:18:14</sys_created_on>
+        <sys_id>ecc927b81b613300da3bdb15cc4bcb58</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Activity Stream</sys_name>
+        <sys_package display_value="J Class Management" source="x_216497_j_class_m">f1eb8d101b213300da3bdb15cc4bcb0f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="J Class Management">f1eb8d101b213300da3bdb15cc4bcb0f</sys_scope>
+        <sys_update_name>sys_sg_activity_stream_screen_ecc927b81b613300da3bdb15cc4bcb58</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-26 04:27:26</sys_updated_on>
+    </sys_sg_activity_stream_screen>
+</record_update>

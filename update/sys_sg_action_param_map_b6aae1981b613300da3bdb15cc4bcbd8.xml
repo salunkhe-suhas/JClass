@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="New Registration">746fdd501b613300da3bdb15cc4bcbc6</button>
+        <item_parameter display_value="Mother's Contact">75c129d01b613300da3bdb15cc4bcbc3</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-17 06:46:01</sys_created_on>
+        <sys_id>b6aae1981b613300da3bdb15cc4bcbd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>75c129d01b613300da3bdb15cc4bcbc3</sys_name>
+        <sys_package display_value="J Class Management" source="x_216497_j_class_m">f1eb8d101b213300da3bdb15cc4bcb0f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="J Class Management">f1eb8d101b213300da3bdb15cc4bcb0f</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_b6aae1981b613300da3bdb15cc4bcbd8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-17 06:46:01</sys_updated_on>
+        <ui_parameter display_value="Mother's Contact">ccb829181b613300da3bdb15cc4bcb79</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

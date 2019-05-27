@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_detail_screen">
+    <sys_sg_master_detail_screen action="INSERT_OR_UPDATE">
+        <application_roles/>
+        <available_offline>false</available_offline>
+        <data_item display_value="All Payments">c489a7781b613300da3bdb15cc4bcb09</data_item>
+        <description>You can see list of payment made by student and you can made payment also</description>
+        <fetch_type>not_required</fetch_type>
+        <hidden>false</hidden>
+        <icon display_value="newspaper">13b927b81b613300da3bdb15cc4bcb6d</icon>
+        <name>All Payments</name>
+        <order>20</order>
+        <parent>8a9867781b613300da3bdb15cc4bcbff</parent>
+        <parent_table>sys_sg_folder</parent_table>
+        <roles_override/>
+        <sys_class_name>sys_sg_master_detail_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-19 05:18:12</sys_created_on>
+        <sys_id>40c9a7b81b613300da3bdb15cc4bcbee</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>All Payments</sys_name>
+        <sys_package display_value="J Class Management" source="x_216497_j_class_m">f1eb8d101b213300da3bdb15cc4bcb0f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="J Class Management">f1eb8d101b213300da3bdb15cc4bcb0f</sys_scope>
+        <sys_update_name>sys_sg_master_detail_screen_40c9a7b81b613300da3bdb15cc4bcbee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-20 07:50:31</sys_updated_on>
+    </sys_sg_master_detail_screen>
+</record_update>

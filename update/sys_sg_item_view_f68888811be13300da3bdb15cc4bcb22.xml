@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view">
+    <sys_sg_item_view action="INSERT_OR_UPDATE">
+        <data_item/>
+        <dependency_fields/>
+        <item_view_json>{&#13;
+  "Type": "ViewGroup",&#13;
+  "Margin": {&#13;
+    "Top": 15,&#13;
+    "Bottom": 14&#13;
+  },&#13;
+  "Orientation": "Horizontal",&#13;
+  "Alignment": "Center",&#13;
+  "Distribution": "Auto",&#13;
+  "Children": [&#13;
+    {&#13;
+      "Type": "ViewGroup",&#13;
+      "Orientation": "Vertical",&#13;
+      "Alignment": "Left",&#13;
+      "Distribution": "Auto",&#13;
+      "Children": [&#13;
+        {&#13;
+          "Type": "Text",&#13;
+          "Text": "PLACEHOLDER",&#13;
+          "CellId": "sys_group_by",&#13;
+          "TextColor": "#293e40",&#13;
+          "TextAlignment": "Left",&#13;
+          "MaxLines": 2,&#13;
+          "Font": {&#13;
+            "Weight": "regular",&#13;
+            "Size": 16&#13;
+          }&#13;
+        }&#13;
+      ]&#13;
+    },&#13;
+    {&#13;
+      "Type": "ViewGroup",&#13;
+      "Margin": {&#13;
+        "Left": 16,&#13;
+        "Right": 16&#13;
+      },&#13;
+      "Orientation": "Vertical",&#13;
+      "Alignment": "Stretch",&#13;
+      "Distribution": "Auto",&#13;
+      "Children": [&#13;
+        {&#13;
+          "Type": "Text",&#13;
+          "Text": "9999",&#13;
+          "CellId": "sys_count",&#13;
+          "TextColor": "#7d8a8c",&#13;
+          "TextAlignment": "Right",&#13;
+          "MaxLines": 1,&#13;
+          "Font": {&#13;
+            "Weight": "regular",&#13;
+            "Size": 14&#13;
+          },&#13;
+          "Margin": {}&#13;
+        }&#13;
+      ]&#13;
+    },&#13;
+    {&#13;
+      "Type": "ViewGroup",&#13;
+      "Width": 50,&#13;
+      "Margin": {&#13;
+        "Right": 16&#13;
+      },&#13;
+      "Orientation": "Vertical",&#13;
+      "Alignment": "Right",&#13;
+      "Distribution": "Auto",&#13;
+      "Children": [&#13;
+        {&#13;
+          "Type": "Text",&#13;
+          "Width": 50,&#13;
+          "Margin": {},&#13;
+          "Text": "\ue900",&#13;
+          "TextColor": "#a7b0b2",&#13;
+          "TextAlignment": "Right",&#13;
+          "MaxLines": 1,&#13;
+          "Font": {&#13;
+            "Weight": "regular",&#13;
+            "Size": 14,&#13;
+            "Name": "icomoon"&#13;
+          }&#13;
+        }&#13;
+      ]&#13;
+    }&#13;
+  ]&#13;
+}&#13;
+</item_view_json>
+        <name>Payment by student</name>
+        <short_description/>
+        <sys_class_name>sys_sg_item_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-19 07:35:23</sys_created_on>
+        <sys_id>f68888811be13300da3bdb15cc4bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Payment by student</sys_name>
+        <sys_package display_value="J Class Management" source="x_216497_j_class_m">f1eb8d101b213300da3bdb15cc4bcb0f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="J Class Management">f1eb8d101b213300da3bdb15cc4bcb0f</sys_scope>
+        <sys_update_name>sys_sg_item_view_f68888811be13300da3bdb15cc4bcb22</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-19 07:35:23</sys_updated_on>
+        <ui_styles/>
+    </sys_sg_item_view>
+</record_update>

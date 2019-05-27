@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition/>
+        <condition_order/>
+        <item_view display_value="Employee Directory item view">7ab7dd591b617300da3bdb15cc4bcb46</item_view>
+        <name>Master Item</name>
+        <screen display_value="Student Directory">f2b7d9591b617300da3bdb15cc4bcbb3</screen>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-20 07:57:12</sys_created_on>
+        <sys_id>cbb7d9591b617300da3bdb15cc4bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Master Item</sys_name>
+        <sys_package display_value="J Class Management" source="x_216497_j_class_m">f1eb8d101b213300da3bdb15cc4bcb0f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="J Class Management">f1eb8d101b213300da3bdb15cc4bcb0f</sys_scope>
+        <sys_update_name>sys_sg_master_item_cbb7d9591b617300da3bdb15cc4bcbb6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-20 07:57:12</sys_updated_on>
+        <table>x_216497_j_class_m_student_registration</table>
+    </sys_sg_master_item>
+</record_update>

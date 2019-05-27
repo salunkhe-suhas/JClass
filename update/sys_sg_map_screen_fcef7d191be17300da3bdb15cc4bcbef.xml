@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_map_screen">
+    <sys_sg_map_screen action="INSERT_OR_UPDATE">
+        <application_roles/>
+        <available_offline>false</available_offline>
+        <data_item display_value="Student Location Data">34ebb5551be17300da3bdb15cc4bcb3c</data_item>
+        <data_item_table>x_216497_j_class_m_student_registration</data_item_table>
+        <description>Student Location</description>
+        <fetch_type>not_required</fetch_type>
+        <hidden>false</hidden>
+        <icon display_value="paper-plane">18ef7d191be17300da3bdb15cc4bcbec</icon>
+        <info>u_gender</info>
+        <location>u_address</location>
+        <name>Student Location</name>
+        <order>30</order>
+        <parent>7b989d1c1b213300da3bdb15cc4bcbe0</parent>
+        <parent_table>sys_sg_folder</parent_table>
+        <phone>u_father_s_contact</phone>
+        <pin_color>#FF0000</pin_color>
+        <pin_color_type>default</pin_color_type>
+        <roles_override/>
+        <sub_title>u_postal_address</sub_title>
+        <sys_class_name>sys_sg_map_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-20 10:52:38</sys_created_on>
+        <sys_id>fcef7d191be17300da3bdb15cc4bcbef</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Student Location</sys_name>
+        <sys_package display_value="J Class Management" source="x_216497_j_class_m">f1eb8d101b213300da3bdb15cc4bcb0f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="J Class Management">f1eb8d101b213300da3bdb15cc4bcb0f</sys_scope>
+        <sys_update_name>sys_sg_map_screen_fcef7d191be17300da3bdb15cc4bcbef</sys_update_name>
+        <sys_updated_by>suhas.salunkhe</sys_updated_by>
+        <sys_updated_on>2019-05-22 08:48:44</sys_updated_on>
+        <tag>u_roll_number</tag>
+        <tag_background_color>#7d8a8c</tag_background_color>
+        <tag_font_color>#ffffff</tag_font_color>
+        <tag_style>e83f4ed11b257300da3bdb15cc4bcbca</tag_style>
+        <title>u_full_name</title>
+    </sys_sg_map_screen>
+</record_update>

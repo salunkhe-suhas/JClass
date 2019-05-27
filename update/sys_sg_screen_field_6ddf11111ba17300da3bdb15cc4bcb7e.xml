@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
+    <sys_sg_screen_field action="INSERT_OR_UPDATE">
+        <data_item_field_name>u_school_name</data_item_field_name>
+        <hidden>false</hidden>
+        <order>50</order>
+        <screen display_value="Details">dfb7dd591b617300da3bdb15cc4bcb62</screen>
+        <screen_data_item_table>x_216497_j_class_m_student_registration</screen_data_item_table>
+        <sys_class_name>sys_sg_screen_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-20 08:32:36</sys_created_on>
+        <sys_id>6ddf11111ba17300da3bdb15cc4bcb7e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>u_school_name</sys_name>
+        <sys_package display_value="J Class Management" source="x_216497_j_class_m">f1eb8d101b213300da3bdb15cc4bcb0f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="J Class Management">f1eb8d101b213300da3bdb15cc4bcb0f</sys_scope>
+        <sys_update_name>sys_sg_screen_field_6ddf11111ba17300da3bdb15cc4bcb7e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-26 03:24:17</sys_updated_on>
+        <type>auto</type>
+    </sys_sg_screen_field>
+</record_update>

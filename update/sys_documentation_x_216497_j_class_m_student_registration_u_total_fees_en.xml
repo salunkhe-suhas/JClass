@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_total_fees" label="Total Fees" language="en" table="x_216497_j_class_m_student_registration">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_total_fees</element>
+            <help/>
+            <hint/>
+            <label>Total Fees</label>
+            <language>en</language>
+            <name>x_216497_j_class_m_student_registration</name>
+            <plural>Total Fees</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-18 04:02:08</sys_created_on>
+            <sys_id>c4ce06681bad3300da3bdb15cc4bcbb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Total Fees</sys_name>
+            <sys_package display_value="J Class Management" source="x_216497_j_class_m">f1eb8d101b213300da3bdb15cc4bcb0f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="J Class Management">f1eb8d101b213300da3bdb15cc4bcb0f</sys_scope>
+            <sys_update_name>sys_documentation_x_216497_j_class_m_student_registration_u_total_fees_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-18 04:02:08</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

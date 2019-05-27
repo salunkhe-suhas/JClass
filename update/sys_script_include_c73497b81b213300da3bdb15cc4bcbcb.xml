@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_216497_j_class_m.JClassBusinessLogic</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>It includes all server-side business logic.</description>
+        <name>JClassBusinessLogic</name>
+        <script><![CDATA[var JClassBusinessLogic = Class.create();
+JClassBusinessLogic.prototype = {
+	initialize: function() {
+	},
+	
+	
+	assignTotalFees : function(currentRecord) {
+		
+		if ( currentRecord.getDisplayValue('u_medium') =='Marathi' ) {
+			currentRecord.u_total_fees = '11000';
+			currentRecord.u_balance_fees = '11000';
+			
+		} else if ( currentRecord.getDisplayValue('u_medium') =='Semi-English') {
+			currentRecord.u_total_fees = '11000';
+			currentRecord.u_balance_fees = '11000';
+			
+		} else if ( currentRecord.getDisplayValue('u_medium') =='English') {
+			currentRecord.u_total_fees = '12000';
+			currentRecord.u_balance_fees = '12000';
+		}
+	},
+	
+	calculatePayment : function(currentRecord) {
+		
+		var studentTotalFees;
+		var totalPayment = 0;
+		var balanceFees = 0;
+		var studentSysId;
+		
+		var students = new GlideRecord('x_216497_j_class_m_student_registration');
+		students.addQuery('u_roll_number', currentRecord.u_roll_number);
+		students.query();
+		
+		if ( students.next() ) {
+			studentTotalFees = students.u_total_fees;
+			studentSysId = students.sys_id;
+		}
+		
+		var paymentHistry = new GlideRecord('x_216497_j_class_m_fees_payments');
+		paymentHistry.addQuery('u_roll_number', currentRecord.u_roll_number.toString());
+		paymentHistry.query();
+		
+		while ( paymentHistry.next() ) {
+			totalPayment = totalPayment + parseInt(paymentHistry.u_amount.toString());
+		}
+		
+		balanceFees = parseInt(studentTotalFees) - parseInt(totalPayment);
+		students.u_paid_fees = totalPayment;
+		students.u_balance_fees = balanceFees;
+		if ( totalPayment == studentTotalFees ) {
+			students.u_complete_payment = true;
+		}
+		
+		students.update();
+		
+	},
+	
+	evaluateFullName  : function(currentRecord) {
+		
+		currentRecord.u_full_name = currentRecord.u_student_name + ' ' + currentRecord.u_surname;
+	},
+	
+	evaluateRollNo  : function(currentRecord) {
+		
+		currentRecord.u_roll_no.setDisplayValue(currentRecord.u_roll_number);
+	},
+	
+	removePaymentDetails : function(currentRecord) {
+		
+		var paymentDetails = new GlideRecord('x_216497_j_class_m_fees_payments');
+		paymentDetails.addQuery('u_roll_number', currentRecord.u_roll_number);
+		paymentDetails.query();
+		
+		if ( paymentDetails.next() ) {
+			paymentDetails.deleteMultiple();
+		}
+	},
+	
+	calculateTotalFees : function(currentRecord) {
+		
+		var studentTotalFees;
+		var totalPayment = 0;
+		var balanceFees = 0;
+		var studentSysId;
+		
+		var students = new GlideRecord('x_216497_j_class_m_student_registration');
+		students.addQuery('u_roll_number', currentRecord.u_roll_number);
+		students.query();
+		
+		if ( students.next() ) {
+			studentTotalFees = students.u_total_fees;
+			studentSysId = students.sys_id;
+		}
+		
+		var paymentHistry = new GlideRecord('x_216497_j_class_m_fees_payments');
+		paymentHistry.addQuery('u_roll_number', currentRecord.u_roll_number.toString());
+		paymentHistry.query();
+		
+		while ( paymentHistry.next() ) {
+			totalPayment = totalPayment + parseInt(paymentHistry.u_amount.toString());
+		}
+		
+		balanceFees = parseInt(studentTotalFees) - parseInt(totalPayment);
+		students.u_paid_fees = totalPayment;
+		students.u_balance_fees = balanceFees;
+		if ( totalPayment == studentTotalFees ) {
+			students.u_complete_payment = true;
+		} else {
+			students.u_complete_payment = false;
+		}
+		
+		students.update();
+		
+	},
+	
+	checkPrevPayment : function(currentRecord) {
+		
+		var currentPayment = parseInt( currentRecord.u_amount );
+		var studentTotalFees, studentSysId, balanceFees, completePayment;
+		
+		var students = new GlideRecord('x_216497_j_class_m_student_registration');
+		students.addQuery('u_roll_number', currentRecord.u_roll_number);
+		students.query();
+		
+		if ( students.next() ) {
+			studentTotalFees = students.u_total_fees;
+			studentSysId = students.sys_id;
+			balanceFees = parseInt( students.u_balance_fees );
+			completePayment = students.u_complete_payment;
+		}
+		
+		if ( completePayment ) {
+			currentRecord.setAbortAction(true);
+			
+		} else if ( currentPayment > balanceFees ) {
+			
+			gs.addInfoMessage('Your payment is greater than your balance fees.');
+			currentRecord.setAbortAction(true);
+		}
+		
+		
+	},
+	
+	type: 'JClassBusinessLogic'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-19 03:45:51</sys_created_on>
+        <sys_id>c73497b81b213300da3bdb15cc4bcbcb</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>JClassBusinessLogic</sys_name>
+        <sys_package display_value="J Class Management" source="x_216497_j_class_m">f1eb8d101b213300da3bdb15cc4bcb0f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="J Class Management">f1eb8d101b213300da3bdb15cc4bcb0f</sys_scope>
+        <sys_update_name>sys_script_include_c73497b81b213300da3bdb15cc4bcbcb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-26 04:18:44</sys_updated_on>
+    </sys_script_include>
+</record_update>

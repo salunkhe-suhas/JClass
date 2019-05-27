@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_related_lists_screen">
+    <sys_sg_related_lists_screen action="INSERT_OR_UPDATE">
+        <application_roles/>
+        <available_offline>false</available_offline>
+        <data_item/>
+        <description/>
+        <fetch_type>background</fetch_type>
+        <hidden>false</hidden>
+        <icon display_value="file-alt">78b637391ba13300da3bdb15cc4bcb58</icon>
+        <name>Related List</name>
+        <order>30</order>
+        <parent>fcef7d191be17300da3bdb15cc4bcbef</parent>
+        <parent_table>sys_sg_map_screen</parent_table>
+        <roles_override/>
+        <show_count>true</show_count>
+        <sys_class_name>sys_sg_related_lists_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-20 10:52:39</sys_created_on>
+        <sys_id>cdefbd191be17300da3bdb15cc4bcb0c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Related List</sys_name>
+        <sys_package display_value="J Class Management" source="x_216497_j_class_m">f1eb8d101b213300da3bdb15cc4bcb0f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="J Class Management">f1eb8d101b213300da3bdb15cc4bcb0f</sys_scope>
+        <sys_update_name>sys_sg_related_lists_screen_cdefbd191be17300da3bdb15cc4bcb0c</sys_update_name>
+        <sys_updated_by>suhas.salunkhe</sys_updated_by>
+        <sys_updated_on>2019-05-22 08:48:45</sys_updated_on>
+        <table>x_216497_j_class_m_student_registration</table>
+    </sys_sg_related_lists_screen>
+</record_update>

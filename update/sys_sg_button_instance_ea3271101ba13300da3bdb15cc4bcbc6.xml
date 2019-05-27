@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Call to Father">398179981b613300da3bdb15cc4bcb76</button>
+        <description/>
+        <field_name/>
+        <label>Call to Father</label>
+        <location>leading_swipe</location>
+        <name>Call to Father</name>
+        <order>1</order>
+        <parent>1d3b1d9c1b213300da3bdb15cc4bcbec</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-17 07:19:02</sys_created_on>
+        <sys_id>ea3271101ba13300da3bdb15cc4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Call to Father</sys_name>
+        <sys_package display_value="J Class Management" source="x_216497_j_class_m">f1eb8d101b213300da3bdb15cc4bcb0f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="J Class Management">f1eb8d101b213300da3bdb15cc4bcb0f</sys_scope>
+        <sys_update_name>sys_sg_button_instance_ea3271101ba13300da3bdb15cc4bcbc6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-17 07:20:36</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+</record_update>

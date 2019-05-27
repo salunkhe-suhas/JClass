@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description>It will shows the payment history of enter student</description>
+        <group_by/>
+        <name>Payment by Student</name>
+        <query_condition table="x_216497_j_class_m_fees_payments">u_roll_number={{Roll Number}}<item endquery="false" field="u_roll_number" goto="false" newquery="false" operator="=" or="false" value="{{Roll Number}}"/>
+        </query_condition>
+        <query_condition_script><![CDATA[(function getQueryString(input) {
+    //Type appropriate comment here, and begin script below
+ var queryString = '';
+ return queryString; 
+ })(input);]]></query_condition_script>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-19 05:54:51</sys_created_on>
+        <sys_id>fc227b7c1b613300da3bdb15cc4bcbbb</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Payment by Student</sys_name>
+        <sys_package display_value="J Class Management" source="x_216497_j_class_m">f1eb8d101b213300da3bdb15cc4bcb0f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="J Class Management">f1eb8d101b213300da3bdb15cc4bcb0f</sys_scope>
+        <sys_update_name>sys_sg_data_item_fc227b7c1b613300da3bdb15cc4bcbbb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-20 07:05:06</sys_updated_on>
+        <table>x_216497_j_class_m_fees_payments</table>
+    </sys_sg_data_item>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description>Student Location Data</description>
+        <group_by/>
+        <name>Student Location Data</name>
+        <query_condition table="x_216497_j_class_m_student_registration">^ORDERBYu_roll_number<item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="u_roll_number"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-20 10:35:10</sys_created_on>
+        <sys_id>34ebb5551be17300da3bdb15cc4bcb3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Student Location Data</sys_name>
+        <sys_package display_value="J Class Management" source="x_216497_j_class_m">f1eb8d101b213300da3bdb15cc4bcb0f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="J Class Management">f1eb8d101b213300da3bdb15cc4bcb0f</sys_scope>
+        <sys_update_name>sys_sg_data_item_34ebb5551be17300da3bdb15cc4bcb3c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-20 10:35:10</sys_updated_on>
+        <table>x_216497_j_class_m_student_registration</table>
+    </sys_sg_data_item>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="New Registration">746fdd501b613300da3bdb15cc4bcbc6</button>
+        <item_parameter display_value="9th Std %">4f9125901b613300da3bdb15cc4bcbf0</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-17 06:44:52</sys_created_on>
+        <sys_id>4a6a21981b613300da3bdb15cc4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4f9125901b613300da3bdb15cc4bcbf0</sys_name>
+        <sys_package display_value="J Class Management" source="x_216497_j_class_m">f1eb8d101b213300da3bdb15cc4bcb0f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="J Class Management">f1eb8d101b213300da3bdb15cc4bcb0f</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_4a6a21981b613300da3bdb15cc4bcbc6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-17 06:44:52</sys_updated_on>
+        <ui_parameter display_value="9th Std %">9178e9181b613300da3bdb15cc4bcb19</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

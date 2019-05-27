@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_details_screen">
+    <sys_sg_details_screen action="INSERT_OR_UPDATE">
+        <application_roles/>
+        <available_offline>false</available_offline>
+        <data_item display_value="Fees payment list item">63f08dd51b217300da3bdb15cc4bcb05</data_item>
+        <description>List of student payments</description>
+        <fetch_type>not_required</fetch_type>
+        <hidden>false</hidden>
+        <icon display_value="file-alt">fd2341991b217300da3bdb15cc4bcbfd</icon>
+        <item_view display_value="List of student payments detail item view">d62301991b217300da3bdb15cc4bcbdb</item_view>
+        <name>Details</name>
+        <order>10</order>
+        <parent>2a2301991b217300da3bdb15cc4bcb88</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <roles_override/>
+        <sys_class_name>sys_sg_details_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-20 06:27:21</sys_created_on>
+        <sys_id>362381991b217300da3bdb15cc4bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Details</sys_name>
+        <sys_package display_value="J Class Management" source="x_216497_j_class_m">f1eb8d101b213300da3bdb15cc4bcb0f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="J Class Management">f1eb8d101b213300da3bdb15cc4bcb0f</sys_scope>
+        <sys_update_name>sys_sg_details_screen_362381991b217300da3bdb15cc4bcb88</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-20 06:27:21</sys_updated_on>
+    </sys_sg_details_screen>
+</record_update>
