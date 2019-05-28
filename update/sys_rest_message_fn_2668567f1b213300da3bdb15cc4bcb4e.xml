@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>{&#13;
+    "text": "Robert DeSoto added a new task",&#13;
+    "attachments": [&#13;
+        {&#13;
+            "fallback": "Plan a vacation",&#13;
+            "author_name": "Owner: rdesoto",&#13;
+            "title": "Plan a vacation",&#13;
+            "text": "I've been working too hard, it's time for a break.",&#13;
+            "actions": [&#13;
+                {&#13;
+                    "name": "action",&#13;
+                    "type": "button",&#13;
+                    "text": "Complete this task",&#13;
+                    "style": "",&#13;
+                    "value": "complete"&#13;
+                },&#13;
+                {&#13;
+                    "name": "tags_list",&#13;
+                    "type": "select",&#13;
+                    "text": "Add a tag...",&#13;
+                    "data_source": "static",&#13;
+                    "options": [&#13;
+                        {&#13;
+                            "text": "Launch Blocking",&#13;
+                            "value": "launch-blocking"&#13;
+                        },&#13;
+                        {&#13;
+                            "text": "Enhancement",&#13;
+                            "value": "enhancement"&#13;
+                        },&#13;
+                        {&#13;
+                            "text": "Bug",&#13;
+                            "value": "bug"&#13;
+                        }&#13;
+                    ]&#13;
+                }&#13;
+            ]&#13;
+        }&#13;
+    ]&#13;
+}</content>
+        <function_name>POST</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Slack Notification [ POST ]</qualified_name>
+        <rest_endpoint>https://hooks.slack.com/services/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</rest_endpoint>
+        <rest_message display_value="Slack Notification">1a18527f1b213300da3bdb15cc4bcb34</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-28 07:05:20</sys_created_on>
+        <sys_id>2668567f1b213300da3bdb15cc4bcb4e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>POST</sys_name>
+        <sys_package display_value="J Class Management" source="x_216497_j_class_m">f1eb8d101b213300da3bdb15cc4bcb0f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="J Class Management">f1eb8d101b213300da3bdb15cc4bcb0f</sys_scope>
+        <sys_update_name>sys_rest_message_fn_2668567f1b213300da3bdb15cc4bcb4e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-28 07:08:16</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

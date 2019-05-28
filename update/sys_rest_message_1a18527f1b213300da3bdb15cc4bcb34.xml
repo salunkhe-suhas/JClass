@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <authentication_type>no_authentication</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description>Slack Notification</description>
+        <name>Slack Notification</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>https://hooks.slack.com/services/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</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-28 07:03:45</sys_created_on>
+        <sys_id>1a18527f1b213300da3bdb15cc4bcb34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Slack Notification</sys_name>
+        <sys_package display_value="J Class Management" source="x_216497_j_class_m">f1eb8d101b213300da3bdb15cc4bcb0f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="J Class Management">f1eb8d101b213300da3bdb15cc4bcb0f</sys_scope>
+        <sys_update_name>sys_rest_message_1a18527f1b213300da3bdb15cc4bcb34</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-28 07:03:45</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>
